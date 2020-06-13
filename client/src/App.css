@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 32%;
+  background-color: blue;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  padding: 5px;
+}

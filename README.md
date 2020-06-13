@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+two parts of express we learn was routing and middleware
+
 - [ ] Describe Middleware?
+
+middleware is functionality that you can add when requests come in, it can also be used to make code reusable
 
 - [ ] Describe a Resource?
 
+a Resource is some data being return to a client
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+a status code of 200
+
 - [ ] How can we partition our application into sub-applications?
+
+we can partition into sub-applications by using express.Router() and app.use
 
 ## Minimum Viable Product
 
